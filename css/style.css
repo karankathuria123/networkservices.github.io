@@ -152,26 +152,28 @@ aside#sidebar .quote div{
 }
 
 /* Photo Container*/
-aside#photosection{
+.photocontainer{
   float: right;
-  width: 30%;
-  margin-right: 4%;
-
-}
-
-aside#photosection .photocontainer{
   margin-top: -15%;
-  position: absolute;
   width: 23%;
+  margin-right: 10%;
+  text-align: center;
 }
 
-aside#photosection .photocontainer img{
+/* .photocontainer{
+  margin-top: -15%;
+  width: 23%;
+  border-color: black;
+  border-style: solid;
+} */
+
+.photocontainer img{
   height: 50%;
   border-radius: 60%;
   padding: 5px;
 }
 
-aside#photosection .photocontainer .name{
+.photocontainer .name{
   float: right;
   position:relative;
   padding-top: 15%;
@@ -210,7 +212,8 @@ footer{
   #newsletter form,
   #boxes .box,
   article#main-col,
-  aside#sidebar{
+  aside#sidebar,
+  aside#photosection{
     float:none;
     text-align:center;
     width:100%;
@@ -233,4 +236,28 @@ footer{
     width:100%;
     margin-bottom:5px;
   }
+
+/*   aside#photosection{
+    float: none;
+    width: 80%;
+    margin: 10px;
+  } */
+
+  .photocontainer {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+  }
+
+ .photocontainer .name {
+    float: none;
+    padding: 5px;
+  }
+
+  .photocontainer img {
+    border-radius: 15px;
+  }
+
 }
